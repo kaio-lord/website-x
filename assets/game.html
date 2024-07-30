@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="shortcut icon" href="../images/logo.png" type="image/png" />
+    <title>Loading... | 3kh0</title>
+    <style>
+      html,
+      body {
+        margin: 0px;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        text-align: center;
+        user-select: none;
+      }
+
+      iframe {
+        width: 100%;
+        height: 100%;
+      }
+
+      .spinner {
+        margin: 0px;
+      }
+
+      .playgame {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 500px;
+        height: 500px;
+      }
+
+      h1 {
+        color: var(--text);
+      }
+
+      .hidden {
+        display: none;
+      }
+
+      .loader {
+        margin: 20px;
+      }
+
+      .loader.center {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 99999999999;
+        top: 0;
+        left: 0;
+        background: var(--background);
+      }
+
+      .game_img {
+        border-radius: 10%;
+        width: 200px;
+        height: 200px;
+      }
+
+      .spinner {
+        height: 150px;
+        width: 150px;
+        margin: 50px;
+      }
+    </style>
+  </head>
+
+  <body theme="default">
+    <center class="playgame">
+      <div class="loader">
+        <span class="spinner">
+          <svg viewBox="22 22 44 44">
+            <circle
+              class="spinnerSvg"
+              cx="44"
+              cy="44"
+              r="20.2"
+              fill="none"
+              stroke-width="3.6"
+            ></circle>
+          </svg>
+        </span>
+      </div>
+      <h1 id="game">Loading...</h1>
+      <button class="play hidden" id="startgame" data-aos="fade-up">
+        Play
+      </button>
+    </center>
+
+    <script src="./game.js"> </script>
+  </body>
+</html>
