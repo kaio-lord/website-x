@@ -18,7 +18,7 @@
 - SPEED
 - Lightweight
 - PWA support
-- And so much more!
+- And more!
 
 
 ## Game Files
