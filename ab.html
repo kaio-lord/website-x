@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta content="/images/logo.png" property="og:image" />
+
+    <title>About:Blank | 3kh0</title>
+    <link href="./images/logo.png" rel="icon" />
+    <link href="./css/index.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="navbar">
+      <div class="navitems">
+        <div class=navleft>
+        <img
+          alt="Home"
+          src="./images/logo.png"
+          class="navlogo"
+          draggable="false"
+        />
+         <span>3kh0</span>
+        </div>
+        <a class="navitem" href="/"><span class="material-symbols-rounded">home</span><span>Home</span></a>
+        <a class="navitem" href="./projects"><span class="material-symbols-rounded">videogame_asset</span><span>Projects</span></a>
+        <a class="navitem" href="./search"><span class="material-symbols-rounded">search</span><span>Search</span></a>
+        <a class="navitem" href="./cinny"><span class="material-symbols-rounded">chat</span><span>Chat</span></a>
+        <a class="navitem" href="./settings"><span class="material-symbols-rounded">settings</span><span>Settings</span></a>
+        <div class="display-time"></div>
+      </div>
+    </div>
+    <div id="particles-js"></div>
+  </br>
+  <center>
+    <div class="title">3kh0's about:blank launcher!</div>
+    <br>
+    <div class="buttons ab-url">
+      <input type="text" class="input uv-ab" value="" placeholder="Enter URL here" id='input' autofocus>
+      <button class="button ab-button" onclick='create()'><span class="material-symbols-rounded">open_in_new</span></button>
+    </div>
+  </center>
+    
+    <footer>
+      <span>&copy; Realm Services 2024</span>
+    </footer>
+    <script src=
+        "particles.js-master/particles.js">
+    </script>
+    <script src=
+        "/particles.js-master/demo/js/app.js">
+    </script>
+    <script src="./js/clock.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/main.js"></script>
+    <script>
+      function create() {
+          var url = document.getElementById('input').value;
+          var win = window.open();
+          win.document.body.style.margin = '0';
+          win.document.body.style.height = '100vh';
+          var iframe = win.document.createElement('iframe');
+          iframe.style.border = 'none';
+          iframe.style.width = '100%';
+          iframe.style.height = '100%';
+          iframe.style.margin = '0';
+          iframe.src = url;
+          win.document.body.appendChild(iframe);
+      }
+      </script>
+  </body>
+</html>

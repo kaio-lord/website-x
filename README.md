@@ -1,2 +1,64 @@
-# website-x
-The ultimate unblocked games website on the planet.
+<p align="left">
+<kbd>
+<img style="border-radius:20px" height="150px" src="images/logo2.png">
+</kbd>
+</p>
+<h1 align="left">3kh0 X, codename Hagia</h1>
+<p align="left">The ultimate unblocked games website on the planet.</p>
+
+
+[![Join us on Discord](https://invidget.switchblade.xyz/wv6huJAwEv?theme=dark)](https://discord.com/invite/echodev-971769908205604864)
+
+
+## Main Features
+
+- Cloaking + A:B
+- Proxy
+- Static deployment
+- SPEED
+- Lightweight
+- PWA support
+- And so much more!
+
+
+## Game Files
+
+kaio-lord's official game files and the CDN base are in [this repo](https://gitlab.com/kaioxdev/legacy-assets).
+
+## Host the CDN
+
+Thanks to [@Russell2259](https://github.com/Russell2259/) in the previous version,  you can host your CDN. Instructions are [here](https://3kh0.gitbook.io/wiki/create-a-cdn-server-for-3kh0).
+
+## Host the website
+
+You can host our website on a cloud hosting solution like Vercel here. If you're unsure on what this does, use our own site, or find one someone else is hosting. <br>
+
+
+[![Deploy with Vercel](https://binbashbanana.github.io/deploy-buttons/buttons/remade/vercel.svg)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fkaio-lord%2Fwebsite-x) 
+[![Remix on Glitch](https://binbashbanana.github.io/deploy-buttons/buttons/remade/glitch.svg)](https://glitch.com/edit/#!/import/github/3kh0/website-v4)
+[![Deploy to IBM Cloud](https://binbashbanana.github.io/deploy-buttons/buttons/remade/ibmcloud.svg)](https://cloud.ibm.com/devops/setup/deploy?repository=https://github.com/3kh0/website-v4)
+[![Deploy to Amplify Console](https://binbashbanana.github.io/deploy-buttons/buttons/remade/amplifyconsole.svg)](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/3kh0/website-v4)
+[![Run on Google Cloud](https://binbashbanana.github.io/deploy-buttons/buttons/remade/googlecloud.svg)](https://deploy.cloud.run/?git_repo=https://github.com/3kh0/website-v4)
+[![Deploy to Oracle Cloud](https://binbashbanana.github.io/deploy-buttons/buttons/remade/oraclecloud.svg)](https://cloud.oracle.com/resourcemanager/stacks/create?zipUrl=https://github.com/3kh0/website-v4/archive/refs/heads/main.zip)
+[![Deploy with Netlify](https://binbashbanana.github.io/deploy-buttons/buttons/remade/netlify.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/3kh0/website-v4)
+[![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://render.com/deploy?repo=https://github.com/3kh0/website-v4)
+
+## Themes 
+
+To create your own theme, check out the themes.css file on the repo. In there you will find existing themes that you can modify.
+
+
+
+## Previous versions
+
+Here are the previous iterations of this project. All credits to 3kh0 and all of the amazing people that helped work on the iterations of this project.
+
+- [v1](https://github.com/3kh0/website-v1)
+- [v2](https://github.com/3kh0/website-v2)
+- [v3](https://github.com/3kh0/website-v3)
+- [v4](https://gitlab.com/3kh0/website-v4)
+
+## License
+View the license [here](LICENSE.txt).
+
+

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The better unblocked games website." />
+    <meta
+      name="keywords"
+      content="front-end web developer, unblocked, games, google sites, unblocked games mom, ublocked, code, coding, programmer, development, javascript, jquery, bootstrap, sass, less, git"
+    />
+    <meta name="author" content="3kh0" />
+    <meta content="3kh0" property="og:title" />
+    <meta
+      content="The better unblocked games website."
+      property="og:description"
+    />
+    <meta content="/images/logo.png" property="og:image" />
+    <link href="./images/logo.png" rel="icon" />
+    <link href="./css/index.css" rel="stylesheet" />
+
+    <title>Projects | 3kh0</title>
+  </head>
+
+  <body>
+    <div class="navbar">
+      <div class="navitems">
+        <div class=navleft>
+        <img
+          alt="Home"
+          src="./images/logo.png"
+          class="navlogo"
+          draggable="false"
+        />
+         <span>3kh0</span>
+        </div>
+        <a class="navitem" href="/"><span class="material-symbols-rounded">home</span><span>Home</span></a>
+        <a class="navitem" current href="./projects"><span class="material-symbols-rounded">videogame_asset</span><span>Projects</span></a>
+        <a class="navitem" href="./search"><span class="material-symbols-rounded">search</span><span>Search</span></a>
+        <a class="navitem" href="./cinny"><span class="material-symbols-rounded">chat</span><span>Chat</span></a>
+        <a class="navitem" href="./settings"><span class="material-symbols-rounded">settings</span><span>Settings</span></a>
+        <div class="battery">
+          <div class="battery-head"></div>
+        <div class="battery-body"></div>
+        </div>
+        <p id="battery-percentage"></p>
+        <div class="display-time"></div>
+        
+        
+      </div>
+    </div>
+    <div id="particles-js"></div>
+  <div class="searchcontainer">
+    <input class="searchbar" placeholder="Search Projects" />
+    <button class="button" onclick="downloadMainSave()">Download Save</button>
+      <button class="button" onclick="uploadMainSave()">Upload Save</button>
+  </div>
+    
+    <div class="saveItems">
+      
+      <div class="uploadResult"></div>
+    </div>
+
+    <input class="hiddenUpload" type="file" accept=".save" />
+
+    <div class="games"></div>
+
+    <div class="gamecontainer hidden">
+      <div class="nav">
+        <div class="item" id="back">
+          <p class="material-symbols-rounded">arrow_back</p>
+        </div>
+
+        <span> Loading... </span>
+
+        <div class="item right" id="fullscreen">
+          <p class="material-symbols-rounded">fullscreen</p>
+        </div>
+      </div>
+
+      <div class="frame">
+        <iframe frameborder="0" id="gameframe" class="gameframe"></iframe>
+      </div>
+    </div>
+
+    <span class="spinner">
+      <svg viewBox="22 22 44 44">
+        <circle
+          class="spinnerSvg"
+          cx="44"
+          cy="44"
+          r="20.2"
+          fill="none"
+          stroke-width="3.6"
+        ></circle>
+      </svg>
+    </span>
+
+    <div class="nogames">
+      <h1>¯\(°_o)/¯</h1>
+      <p>
+        No results found. If your want to add a game, please make a suggestion
+        to our
+        <a href="https://gitlab.com/kaioxdev/website-x/issues">GitLab</a>.
+      </p>
+    </div>
+    
+    <footer>
+      <span>&copy; Realm Services 2024</span>
+    </footer>
+    <script src=
+        "particles.js-master/particles.js">
+    </script>
+    <script src=
+        "/particles.js-master/demo/js/app.js">
+    </script>
+    <script src="./js/index.js"></script>
+    <script src="./js/games.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/battery.js"></script>
+  </body>
+</html>

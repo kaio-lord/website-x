@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta content="./images/logo.png" property="og:image" />
+    <title>Search | 3kh0</title>
+    <link href="./images/logo.png" rel="icon" />
+    <link href="./css/index.css" rel="stylesheet" />
+    <link rel="manifest" href="./manifest.json" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="navitems">
+        <div class=navleft>
+        <img src="./images/logo.png" class="navlogo" draggable="false"/>
+        <span>3kh0</span>
+        </div>
+        <a class="navitem" href="/"><span class="material-symbols-rounded">home</span><span>Home</span></a>
+        <a class="navitem" href="./projects"><span class="material-symbols-rounded">videogame_asset</span><span>Projects</span></a>
+        <a class="navitem" current href="./search"><span class="material-symbols-rounded">search</span><span>Search</span></a>
+        <a class="navitem" href="./cinny"><span class="material-symbols-rounded">chat</span><span>Chat</span></a>
+        <a class="navitem" href="./settings"><span class="material-symbols-rounded">settings</span><span>Settings</span></a>
+        <div class="battery">
+          <div class="battery-head"></div>
+        <div class="battery-body"></div>
+        </div>
+        <p id="battery-percentage"></p>
+        
+        <div class="display-time"></div>
+        
+      </div>
+    </div>
+    <div id="particles-js"></div>
+      <div class="title">Search</div>
+      <br />
+      <center>
+        <form id="uv-form"">
+          <input id="uv-search-engine" value="https://www.google.com/search?q=%s" type="hidden"/> 
+          <input id="uv-address" type="text" placeholder="Search privately" class="input uv-ab"/>
+        </form>
+        <div class="desc left-margin">
+          <p id="uv-error"></p>
+          <pre id="uv-error-code"></pre>
+        </div>
+      </center>
+      
+    
+    <footer>
+      <span>&copy; Realm Services 2024</span>
+    </footer>
+      <script src=
+          "particles.js-master/particles.js">
+      </script>
+      <script src=
+          "/particles.js-master/demo/js/app.js">
+      </script>
+      <script src="./uv/uv.bundle.js" defer></script>
+      <script src="./uv/uv.config.js" defer></script>
+      <script src="./register-sw.js" defer></script>
+      <script src="./js/search.js" defer></script>
+      <script src="./js/search-main.js" defer></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/battery.js"></script>
+  </body>
+</html>

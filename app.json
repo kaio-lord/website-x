@@ -1,0 +1,7 @@
+{
+  "name": "3kh0",
+  "description": "The ultimate unblocked games website on the planet.",
+  "repository": "https://github.com/kaio-lord/website-x",
+  "logo": "/images/logo2.png",
+  "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-static" }]
+}
