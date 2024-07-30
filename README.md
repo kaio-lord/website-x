@@ -3,7 +3,7 @@
 <img style="border-radius:20px" height="150px" src="images/logo2.png">
 </kbd>
 </p>
-<h1 align="left">3kh0 X, codename Hagia</h1>
+<h1 align="left">3kh0 X, codename Hagia </h1>
 <p align="left">The ultimate unblocked games website on the planet.</p>
 
 
