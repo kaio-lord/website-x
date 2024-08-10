@@ -422,7 +422,7 @@ footer {
   background: var(--theme);
   object-fit: cover;
   height: 10rem;
-  width: -webkit-fill-available;
+  width: 10rem;
   border-radius: 15px;
   z-index: 6666;
 }
