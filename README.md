@@ -42,7 +42,7 @@ You can host our website on a cloud hosting solution like Vercel here. If you're
 
 ## Themes 
 
-To create your own theme, check out the themes.css file on the repo. In there you will find existing themes that you can modify.
+To create your own theme, check out the themes.css file on the repo. In there you will find existing themes that you can modify. More documentation can be found [here](http://3kh0.gitbook.io/wiki/create-theme-code).
 
 
 
