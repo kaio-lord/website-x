@@ -1,6 +1,6 @@
 <p align="left">
 <kbd>
-<img style="border-radius:20px" height="150px" src="images/logo2.png">
+<img style="border-radius:20px" height="150px" src="images/logo2.avif">
 </kbd>
 </p>
 <h1 align="left">3kh0 X, codename Hagia </h1>
