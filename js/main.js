@@ -8,7 +8,6 @@ function getCurrentTime() {
             const formattedTime = t.toLocaleTimeString(undefined, {
                 hour: "numeric",
                 minute: "numeric",
-                second: "numeric",
                 hour12: false,
             });
             n.textContent = formattedTime; 
@@ -18,7 +17,6 @@ function getCurrentTime() {
             const formattedTime = currentTime.toLocaleTimeString(undefined, {
                 hour: "numeric",
                 minute: "numeric",
-                second: "numeric",
                 hour12: false,
             });
             n.textContent = formattedTime; 
