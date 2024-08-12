@@ -6,8 +6,12 @@
 <h1 align="left">3kh0 X, codename Hagia </h1>
 <p align="left">The ultimate unblocked games website on the planet.</p>
 
-
 [![Join us on Discord](https://invidget.switchblade.xyz/wv6huJAwEv?theme=dark)](https://discord.com/invite/echodev-971769908205604864)
+
+
+## 
+[![Stargazers repo roster for @kaio-lord/website-x](https://reporoster.com/stars/dark/kaio-lord/website-x)](https://github.com/kaio-lord/website-x/stargazers)
+[![Forkers repo roster for @kaio-lord/website-x](https://reporoster.com/forks/dark/kaio-lord/website-x)](https://github.com/kaio-lord/website-x/network/members)
 
 
 ## Main Features
