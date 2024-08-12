@@ -9,7 +9,7 @@ function getCurrentTime() {
                 hour: "numeric",
                 minute: "numeric",
                 second: "numeric",
-                hour12: true,
+                hour12: false,
             });
             n.textContent = formattedTime; 
         })
@@ -19,7 +19,7 @@ function getCurrentTime() {
                 hour: "numeric",
                 minute: "numeric",
                 second: "numeric",
-                hour12: true,
+                hour12: false,
             });
             n.textContent = formattedTime; 
         });
