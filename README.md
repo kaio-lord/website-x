@@ -44,10 +44,15 @@ You can host our website on a cloud hosting solution like Vercel here. If you're
 [![Run on Google Cloud](https://binbashbanana.github.io/deploy-buttons/buttons/remade/googlecloud.svg)](https://deploy.cloud.run/?git_repo=https://github.com/kaio-lord/website-x)
 [![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://render.com/deploy?repo=https://github.com/kaio-lord/website-x)
 
+
 ## Themes 
 
 To create your own theme, check out the themes.css file on the repo. In there you will find existing themes that you can modify. More documentation can be found [here](http://3kh0.gitbook.io/wiki/create-theme-code).
 
+
+## Contributors
+
+[![Contrib](https://contrib.rocks/image?repo=kaio-lord/website-x)](https://github.com/kaio-lord/website-x/graphs/contributors)
 
 
 ## Previous versions
