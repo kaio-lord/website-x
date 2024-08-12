@@ -1,6 +1,6 @@
 <p align="left">
 <kbd>
-<img style="border-radius:20px" height="150px" src="images/logo2.png">
+<img style="border-radius:20px" height="150px" src="images/logo2.avif">
 </kbd>
 </p>
 <h1 align="left">3kh0 X, codename Hagia </h1>
@@ -38,11 +38,11 @@ You can host our website on a cloud hosting solution like Vercel here. If you're
 [![Remix on Glitch](https://binbashbanana.github.io/deploy-buttons/buttons/remade/glitch.svg)](https://glitch.com/edit/#!/import/github/kaio-lord/website-x)
 [![Deploy with Netlify](https://binbashbanana.github.io/deploy-buttons/buttons/remade/netlify.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/kaio-lord/website-x)
 [![Run on Google Cloud](https://binbashbanana.github.io/deploy-buttons/buttons/remade/googlecloud.svg)](https://deploy.cloud.run/?git_repo=https://github.com/kaio-lord/website-x)
-[![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://render.com/deploy?repo=https://github.com/3kh0/website-x)
+[![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://render.com/deploy?repo=https://github.com/kaio-lord/website-x)
 
 ## Themes 
 
-To create your own theme, check out the themes.css file on the repo. In there you will find existing themes that you can modify.
+To create your own theme, check out the themes.css file on the repo. In there you will find existing themes that you can modify. More documentation can be found [here](http://3kh0.gitbook.io/wiki/create-theme-code).
 
 
 
