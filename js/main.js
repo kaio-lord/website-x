@@ -1,16 +1,29 @@
-// New time subsystem for 3kh0 and Hagia. 
-const displayTime1 = document.querySelector(".display-time");
+function getCurrentTime() {
+    const n = document.querySelector(".display-time"); 
 
-
-function showTime1(format) {
-  let time = new Date();
-
-  displayTime1.innerText = time.toLocaleTimeString("en-US", {
-    hour12: format,
-    hour: '2-digit',
-    minute: '2-digit'
-  });
-
+    fetch("https://worldtimeapi.org/api/ip")
+        .then((response) => response.json())
+        .then((data) => {
+            const t = new Date(data.utc_datetime);
+            const formattedTime = t.toLocaleTimeString(undefined, {
+                hour: "numeric",
+                minute: "numeric",
+                second: "numeric",
+                hour12: true,
+            });
+            n.textContent = formattedTime; 
+        })
+        .catch(() => {
+            const currentTime = new Date();
+            const formattedTime = currentTime.toLocaleTimeString(undefined, {
+                hour: "numeric",
+                minute: "numeric",
+                second: "numeric",
+                hour12: true,
+            });
+            n.textContent = formattedTime; 
+        });
 }
 
-showTime1(false);
+getCurrentTime();
+setInterval(getCurrentTime, 900);
