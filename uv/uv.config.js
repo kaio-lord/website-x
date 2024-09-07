@@ -1,6 +1,6 @@
 self.__uv$config = {
     prefix: '/search/',
-    bare:'https://mighty-katerina-user-window-s-34d4600e.koyeb.app/bare/', // Bare server by Realm Services based on Metallic.
+    bare:'https://v5.3kh0.net/bare/',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: './uv/uv.handler.js',
