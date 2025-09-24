@@ -376,12 +376,12 @@ footer {
 
 .game {
   height: 12.5rem;
-  width: 16rem;
+  width: auto;
   background: var(--theme);
   color: var(--text);
   text-decoration: none;
   border-radius: 20px;
-  display: flex;
+  display: grid;
   flex-wrap: wrap;
   justify-content: left;
   -webkit-user-select: none;
@@ -422,7 +422,7 @@ footer {
   background: var(--theme);
   object-fit: cover;
   height: 10rem;
-  width: 10rem;
+  width: 100%;
   border-radius: 15px;
   z-index: 6666;
 }
