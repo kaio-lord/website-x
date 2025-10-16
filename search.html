@@ -3,7 +3,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta content="./images/logo.avif" property="og:image" />
-    <title>Home | 3kh0</title>
+    <title>Search | 3kh0</title>
     <link href="./images/logo.avif" rel="icon" />
     <link href="./css/index.css" rel="stylesheet" />
     <link rel="manifest" href="./manifest.json" />
@@ -13,11 +13,11 @@
       <div class="navitems">
         <div class=navleft>
         <img src="./images/logo.avif" class="navlogo" draggable="false"/>
-        
+        <span>3kh0</span>
         </div>
-        <a class="navitem" current href="index.html"><span class="material-symbols-rounded">home</span><span>Home</span></a>
-      <a class="navitem" href="./projects"><span class="material-symbols-rounded">videogame_asset</span><span>Projects</span></a>
-      <a class="navitem" href="./search"><span class="material-symbols-rounded">search</span><span>Search</span></a>
+        <a class="navitem" href="index.html"><span class="material-symbols-rounded">home</span><span>Home</span></a>
+        <a class="navitem" href="./projects"><span class="material-symbols-rounded">videogame_asset</span><span>Projects</span></a>
+        <a class="navitem" current href="./search"><span class="material-symbols-rounded">search</span><span>Search</span></a>
         <a class="navitem" href="./cinny"><span class="material-symbols-rounded">chat</span><span>Chat</span></a>
         <a class="navitem" href="./settings"><span class="material-symbols-rounded">settings</span><span>Settings</span></a>
         <div class="battery">
@@ -31,21 +31,22 @@
       </div>
     </div>
     <div id="particles-js"></div>
-      <div class="title">3kh0</div>
+      <div class="title">Search</div>
+      <br />
       <center>
-        <div class="message homemessage" onclick="setRandomSay()">...</div>
-        
-        <p class="section-text"><a>Welcome to 3kh0!</a></p>
-        <br />
-        <a href="./projects" class="play-link" data-aos="fade-up"
-          ><button class="play">Play Now</button></a>
+        <form id="uv-form"">
+          <input id="uv-search-engine" value="https://www.google.com/search?q=%s" type="hidden"/> 
+          <input id="uv-address" type="text" placeholder="Search privately" class="input uv-ab"/>
+        </form>
+        <div class="desc left-margin">
+          <p id="uv-error"></p>
+          <pre id="uv-error-code"></pre>
         </div>
-        
       </center>
       
     
     <footer>
-      <span>&copy; Realm Services 2024 - <a href="./ab"> About:Blank Launcher</a></span>
+      <span>&copy; Realm Services 2024</span>
     </footer>
       <script src=
           "particles.js-master/particles.js">
@@ -53,19 +54,13 @@
       <script src=
           "/particles.js-master/demo/js/app.js">
       </script>
+      <script src="./uv/uv.bundle.js" defer></script>
+      <script src="./uv/uv.config.js" defer></script>
+      <script src="./register-sw.js" defer></script>
+      <script src="./js/search.js" defer></script>
+      <script src="./js/search-main.js" defer></script>
     <script src="./js/index.js"></script>
-    <script src="./js/home.js"></script>
     <script src="./js/main.js"></script>
     <script src="./js/battery.js"></script>
-    <script>
-      // PWA
-      if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register(
-          '/service-worker.js', {
-            scope: '/'
-          }
-        )
-      }
-    </script>
   </body>
 </html>
