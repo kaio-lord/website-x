@@ -35,14 +35,33 @@
         </div>
         <a class="navitem" href="index.html"><span class="material-symbols-rounded">home</span><span>Home</span></a>
         <a class="navitem" current href="./projects"><span class="material-symbols-rounded">videogame_asset</span><span>Projects</span></a>
+      <a class="navitem" href="./search"><span class="material-symbols-rounded">search</span><span>Search</span></a>
+        <a class="navitem" href="./cinny"><span class="material-symbols-rounded">chat</span><span>Chat</span></a>
         <a class="navitem" href="./settings"><span class="material-symbols-rounded">settings</span><span>Settings</span></a>
+        <div class="battery">
+          <div class="battery-head"></div>
+        <div class="battery-body"></div>
+        </div>
+        <p id="battery-percentage"></p>
+        <div class="display-time"></div>
+        
         
       </div>
     </div>
     <div id="particles-js"></div>
   <div class="searchcontainer">
     <input class="searchbar" placeholder="Search Projects" />
+    <button class="button" onclick="downloadMainSave()">Download Save</button>
+      <button class="button" onclick="uploadMainSave()">Upload Save</button>
   </div>
+    
+    <div class="saveItems">
+      
+      <div class="uploadResult"></div>
+    </div>
+
+    <input class="hiddenUpload" type="file" accept=".save" />
+
     <div class="games"></div>
 
     <div class="gamecontainer hidden">
@@ -79,12 +98,14 @@
     <div class="nogames">
       <h1>¯\(°_o)/¯</h1>
       <p>
-        No results found. If you want access to the latest games, visit <a href="https://slayer.supergisfire.com.cdn.cloudflare.net/">this site.</a>
+        No results found. If your want to add a game, please make a suggestion
+        to our
+        <a href="https://gitlab.com/kaioxdev/website-x/issues">GitLab</a>.
       </p>
     </div>
     
     <footer>
-      <span>&copy; Hagia Labs 2025</span>
+      <span>&copy; Realm Services 2024</span>
     </footer>
     <script src=
         "particles.js-master/particles.js">
